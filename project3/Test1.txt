@@ -1,0 +1,16 @@
+15
+4525 Kirk
+21670 Spock
+372017 Uhura
+5
+79981 Khan
+1 Pike
+-1 WrongNegative
+1314150 Sulu
+218 Bones
+WrongEmpty
+56 Scotty
+9952 Chekov
+1.4 WrongDecimal
+15 Riker
+1 WrongRepeat

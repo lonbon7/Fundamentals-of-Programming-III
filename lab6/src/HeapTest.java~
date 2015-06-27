@@ -1,0 +1,116 @@
+import java.util.Random;
+
+
+public class HeapTest
+{
+   public static void main(String[] args)
+   {
+      Integer arr1[] = {1,2,3,17,19,36,7,25,100,20};
+      Integer arr2[] = {1,0,3,17,19,36,7,25,100};
+      Integer arr3[] = {1,2,3,17,19,36,7,25,100,8};
+
+      boolean heapValue;
+
+      heapValue = HeapWork.isHeap(arr1, 10);
+      System.out.println(heapValue);
+      if(heapValue)
+      {
+         Heapwork.printTree(arr1, 10);
+      }
+      heapValue = HeapWork.isHeap(arr2, 9);
+      System.out.println(heapValue);
+      if(heapValue)
+      {
+         Heapwork.printTree(arr2, 9);
+      }
+      heapValue = HeapWork.isHeap(arr3, 10);
+      System.out.println(heapValue);
+      if(heapValue)
+      {
+         Heapwork.printTree(arr3, 10);
+      }
+
+      /*Integer[] testArray = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+      int testSize = 10;
+      
+      Random rand = new Random();
+      Random input = new Random();
+      boolean heapValue;
+      
+      int var1 = rand.nextInt(19)+ 1;      
+      int var2 = rand.nextInt(19)+ 1;
+      int var3 = rand.nextInt(19)+ 1;
+      int var4 = rand.nextInt(19)+ 1;
+      int var5 = rand.nextInt(19)+ 1;
+      int var6 = rand.nextInt(19)+ 1;
+      
+      Integer[] array1 = new Integer[20];
+      Integer[] array2 = new Integer[20];
+      Integer[] array3 = new Integer[20];
+      Integer[] array4 = new Integer[20];
+      Integer[] array5 = new Integer[20];
+      Integer[] array6 = new Integer[20];
+      
+      
+      for(int i = 0; i < var1; i++)
+      {
+         array1[i] = input.nextInt(50);         
+      }
+      
+      for(int i = 0; i < var2; i++)
+      {
+         array2[i] = input.nextInt(50)+1;         
+      }      
+      
+      for(int i = 0; i < var3; i++)
+      {
+         array3[i] = input.nextInt(50)+1;         
+      }      
+      
+      for(int i = 0; i < var4; i++)
+      {
+         array4[i] = input.nextInt(50)+1;         
+      }      
+      
+      for(int i = 0; i < var5; i++)
+      {
+         array5[i] = input.nextInt(50)+1;         
+      }      
+      
+      for(int i = 0; i < var6; i++)
+      {
+         array6[i] = input.nextInt(50)+1;         
+      }      
+      
+      
+      heapValue = HeapWork.isHeap(testArray, testSize);
+      System.out.println(heapValue);      
+      
+      heapValue = HeapWork.isHeap(array1, var1);
+      System.out.println(heapValue);
+      heapValue = HeapWork.isHeap(array2, var2);
+      System.out.println(heapValue);
+      heapValue = HeapWork.isHeap(array3, var3);
+      System.out.println(heapValue);
+      heapValue = HeapWork.isHeap(array4, var4);
+      System.out.println(heapValue);
+      heapValue = HeapWork.isHeap(array5, var5);
+      System.out.println(heapValue);
+      heapValue = HeapWork.isHeap(array6, var6);
+      System.out.println(heapValue);
+      System.out.println();
+      HeapWork.printTree(testArray, testSize);
+      System.out.println();
+      HeapWork.printTree(array1, var1);
+      System.out.println();      
+      HeapWork.printTree(array2, var2);
+      System.out.println();
+      HeapWork.printTree(array3, var3);
+      System.out.println();
+      HeapWork.printTree(array4, var4);
+      System.out.println();
+      HeapWork.printTree(array5, var5);
+      System.out.println();
+      HeapWork.printTree(array6, var6);*/
+   }
+}
